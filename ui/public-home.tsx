@@ -1,0 +1,14 @@
+export default function PublicHome(){return <div className="public-home">
+ <header className="public-nav"><a href="/" className="public-brand"><img src="/android-logo.png" width={44} height={44} alt=""/><span>Current Affairs Aim</span></a><nav aria-label="Main navigation"><a href="#features">Features</a><a href="/android">Android app</a><a href="/login" className="button primary">Log in</a></nav></header>
+ <main>
+  <section className="public-hero"><div><p className="public-eyebrow">READ. PRACTISE. REACH YOUR GOAL.</p><h1>Current Affairs Aim</h1><p className="public-tagline">Your Daily Current Affairs.<br/>Your Competitive Exam Goal.</p><p className="public-description">Build a daily study habit with source-linked current affairs, reviewed practice quizzes, and progress saved to your own account.</p><div className="public-actions"><a href="/signup" className="button primary">Create your account</a><a href="/login" className="button light">Continue studying →</a></div><p className="public-caption">UPSC · State PSC · SI / Police · SSC · Banking · Railways · Defence</p></div><img className="public-logo" src="/android-logo.png" width={280} height={280} alt="Current Affairs Aim globe, book and target logo"/></section>
+  <section id="features" className="public-features" aria-labelledby="features-heading"><p className="public-eyebrow">A CLEARER PATH TO DAILY PREPARATION</p><h2 id="features-heading">Read today. Remember tomorrow.</h2><div className="public-cards">
+   <article><span aria-hidden="true">01</span><h3>Current affairs, in focus</h3><p>Browse state, national and international coverage. Filter by date and topic, and open the original publisher’s source.</p></article>
+   <article><span aria-hidden="true">02</span><h3>Practice with explanations</h3><p>Take reviewed MCQ quizzes, check your answers and revisit mistakes. Standard tests use 20 questions when the matching bank has enough.</p></article>
+   <article><span aria-hidden="true">03</span><h3>Your preparation, saved</h3><p>Keep bookmarks, quiz history and exam preferences in your account. Continue your preparation on desktop or mobile.</p></article>
+  </div></section>
+  <section className="public-start"><div><h2>Make your next study session count.</h2><p>Choose your examination and start building your daily routine.</p></div><a href="/signup" className="button primary">Get started →</a></section>
+  <p className="public-content-note">Coverage varies by source and date. Source-linked headlines are distinguished from reviewed study material. AI-generated questions remain drafts until approved.</p>
+ </main>
+ <nav className="public-links" aria-label="Information"><a href="/showcase">Website tour</a><a href="/help">Help</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/delete-account">Account deletion</a></nav>
+</div>}

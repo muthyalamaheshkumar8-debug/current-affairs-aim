@@ -1,0 +1,9 @@
+.env*
+!.env.example
+*.jks
+*.keystore
+*.pem
+node_modules/
+dist/
+.wrangler/
+keystore.properties
